@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>table</title>
+	<style>
+	#main{
+		margin-top: 5%;
+		margin-left: 25%;
+		/*border-style: outset;*/
+
+	}
+	#inside{
+		
+		float: left;
+		padding: 10px;
+		border: 5px solid black;
+		border-bottom-color: rgb(44,44,44);
+		border-left-color: rgb(170,170,170);
+		border-top-color: rgb(170,170,170);
+		border-right-color: rgb(44,44,44);
+	}
+		#first{
+			float: left;
+			border:1px solid black;
+			margin: 2px;
+			text-align: center;
+			/*height: 90px;
+			width: 170px;*/
+			padding: 4px;
+
+		}
+		#ffr{
+			height: 40px;
+			width: 80px;
+			float: left;
+			border: 1px solid black;
+			border-top: 2px solid black;
+			border-left: 2px solid black;
+			border-collapse: collapse;
+		}
+		#ffrs{
+			height: 40px;
+			width: 80px;
+			float: left;
+			border: 1px solid black;
+			border-top: 2px solid black;
+			border-right: 2px solid black;
+			border-collapse: collapse;
+
+		}
+		#fsr{
+			height: 40px;
+			width: 80px;
+			clear: left;
+			border: 1px solid black;
+			float: left;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+		}
+		#fsrs{
+			height: 40px;
+			width: 80px;
+			float: left;
+			border:1px solid black;
+			border-right: 2px solid black;
+			border-bottom: 2px solid black;
+		}
+		#sfr{
+			height: 40px;
+			width: 80px;
+			clear: left;
+			float: left;
+			border: 1px solid black;
+			border-left: 2px solid black;
+			border-top: 2px solid black;
+		}
+		#sfrs{
+			height: 40px;
+			width: 80px;
+			float: left;
+			border: 1px solid black;
+			border-top: 2px solid black;
+			border-right: 2px solid black;
+		}
+		#ssr{
+			height: 40px;
+			width: 80px;
+			clear: left;
+			float: left;
+			border: 1px solid black;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+		}
+		#ssrs{
+			height: 40px;
+			width: 80px;
+			float: left;
+			border: 1px solid black;
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+		}
+	</style>
+</head>
+<body>
+<div id="main">
+	<div id="inside">
+		<div id="first">
+			<div id="ffr">
+				Rubber
+			</div>
+			<div id="ffrs">
+				baby
+			</div>
+			<div id="fsr">
+				buggy
+			</div>
+			<div id="fsrs">
+				bumpers
+			</div>
+		</div>
+	
+	
+
+		<div id="first">
+			<div id="sfr">
+				She
+			</div>			
+			<div id="sfrs">
+				sells
+			</div>
+			<div id="ssr">
+				sea
+			</div>
+			<div id="ssrs" >
+			shells
+			</div>
+		</div>	
+	</div>
+	
+</div>
+
+</body>
+</html>
